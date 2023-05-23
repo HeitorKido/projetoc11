@@ -47,17 +47,17 @@ function draw() {
   boy.collide(rightBoundary);
   
   //code to reset the background
-   if(path.y < 400 ){
-    path.y = height*2;
-  } 
+//   if(path.y < 400 ){
+//    path.y = height*2;
+//  } 
 
    if(path.y > 400 ){
     path.y = height/2;
   } 
 
-   if(path.y > 400 ){
-    path.y = width/2;
-  } 
+ //  if(path.y > 400 ){
+ //   path.y = width/2;
+ // } 
   
   drawSprites();
 }
